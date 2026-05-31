@@ -1,5 +1,5 @@
 # My Simple Qtile Config File
-# Made by Kenneth Andrey Pinto Medina
+# Made by Kenneth Andrey Pinto Medina (KIRI BOWMAN)
 # https://github.com/KAPINTOM
 
 # This configuration is designed to be simple, efficient, and visually appealing, with a focus on usability and aesthetics. It includes a clean bar with essential widgets, a consistent color scheme, and intuitive keybindings for managing windows and launching applications. The autostart function ensures that necessary applications and services are launched when Qtile starts, providing a seamless user experience from the moment you log in.
