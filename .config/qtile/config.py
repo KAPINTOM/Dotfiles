@@ -1,5 +1,5 @@
 # My Simple Qtile Config File
-# Made by Kenneth Andrey Pinto Medina (KIRI BOWMAN)
+# Made by Kenneth Andrey Pinto Medina
 # https://github.com/KAPINTOM
 
 # This configuration is designed to be simple, efficient, and visually appealing, with a focus on usability and aesthetics. It includes a clean bar with essential widgets, a consistent color scheme, and intuitive keybindings for managing windows and launching applications. The autostart function ensures that necessary applications and services are launched when Qtile starts, providing a seamless user experience from the moment you log in.
@@ -222,6 +222,7 @@ extension_defaults = widget_defaults.copy()
 # Using the same value for gaps and bar margin to create a consistent look
 
 gaps_value = margins
+
 #gaps_value = 100
 
 # =============================================
@@ -237,7 +238,10 @@ gaps_value = margins
 
 screens = [
     Screen(
-	#bar.Gap(10)
+        top=bar.Gap(gaps_value),
+        left=bar.Gap(gaps_value),
+        right=bar.Gap(gaps_value),
+        #bottom=bar.Gap(gaps_value),
         bottom=bar.Bar(
             [
                 widget.Clock(
@@ -290,12 +294,17 @@ screens = [
                 #    fontsize=20,
                 #),
             ],
-            # Size of the bar is set to
+
+            # Size of the bar
             20,
+
+            # Background color of the bar
             background=colors["background"],
             
-            #margin=[gaps_value,0,0,0]
-            margin=[gaps_value, gaps_value, gaps_value, gaps_value],
+            # Margin around the bar (top, right, bottom, left)
+            margin=[gaps_value, gaps_value*2, gaps_value*2, gaps_value*2]
+            
+            #margin=[gaps_value*2, gaps_value, gaps_value, gaps_value],
             #margin=[100,100,100,100],
         ),
     ),
