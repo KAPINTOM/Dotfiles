@@ -1,5 +1,5 @@
 # My Simple Qtile Config File
-# Made by Kenneth Andrey Pinto Medina
+# Made by Kenneth Andrey Pinto Medina (KIRI BOWMAN)
 # https://github.com/KAPINTOM
 
 # This configuration is designed to be simple, efficient, and visually appealing, with a focus on usability and aesthetics. It includes a clean bar with essential widgets, a consistent color scheme, and intuitive keybindings for managing windows and launching applications. The autostart function ensures that necessary applications and services are launched when Qtile starts, providing a seamless user experience from the moment you log in.
@@ -191,13 +191,20 @@ borders = 2
 
 layouts = [
     layout.Columns(
+        border_on_single=True,
+        single_border_width=1,
         border_focus="#2a00e7",
         border_normal="#000000",
         border_width=borders,
         margin=margins,
     ),
-    layout.Max(border_focus="#008cff", border_width=0, margin=0),
-    
+
+    layout.TreeTab(
+        border_focus="#008cff",
+        border_width=2, margin=5,
+        panel_width=200,
+        vspace=3
+    ),
 ]
 
 # =============================================

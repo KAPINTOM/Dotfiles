@@ -8,3 +8,5 @@ dunst &
 
 #/usr/lib/xdg-desktop-portal-gtk &
 #/usr/lib/xdg-desktop-portal &
+
+/usr/libexec/xfce-polkit &
