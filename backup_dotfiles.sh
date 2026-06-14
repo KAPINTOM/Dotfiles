@@ -11,3 +11,4 @@ cp -R ~/.config/i3 .config
 
 rm -r ~/Dotfiles/.config/qtile/backup
 rm -r ~/Dotfiles/.config/qtile/__pycache__
+rm ~/Dotfiles/.config/fish/fish_variables
