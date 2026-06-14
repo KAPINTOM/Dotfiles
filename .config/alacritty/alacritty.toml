@@ -107,8 +107,8 @@ size = 8
 # -----------------------------------
 
 [window]
-opacity = 0.90
-blur = true
+#opacity = 0.90
+#blur = true
 dimensions = { columns = 120, lines = 35 }
 padding = { x = 12, y = 12 }
 dynamic_padding = true
