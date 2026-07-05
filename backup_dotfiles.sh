@@ -9,6 +9,7 @@ cp -R ~/.config/kitty .config
 cp -R ~/.config/picom .config
 cp -R ~/.config/i3 .config
 cp -R ~/.config/polybar .config
+cp -R ~/.config/xdg-desktop-portal .config
 
 rm -r ~/Dotfiles/.config/qtile/backup
 rm -r ~/Dotfiles/.config/qtile/__pycache__
