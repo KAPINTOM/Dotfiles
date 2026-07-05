@@ -22,12 +22,20 @@ font pango:monospace 8
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 
-# AUTOSTART
+# ------------------------------ AUTOSTART --------------------------------------------
 
 exec --no-startup-id dex --autostart --environment i3
+
 #exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec /usr/libexec/polkit-mate-authentication-agent-1
-#exec feh --bg-fill --randomize ~/Wallpapers/*
+#exec /usr/libexec/polkit-mate-authentication-agent-1
+exec feh --bg-fill --randomize ~/Wallpapers/*
+
+#------------------------------- Start Portal XDG Desktop -------------------------------
+
+exec --no-startup-id /usr/lib/xdg-desktop-portal-gtk
+exec --no-startup-id /usr/lib/xdg-desktop-portal
+
+exec /usr/bin/lxpolkit
 exec nitrogen --restore
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
