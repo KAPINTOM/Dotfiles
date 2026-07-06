@@ -1,5 +1,5 @@
 #!/bin/bash
-# Backup dotfiles to ~/Dotfiles repository folder
+# Backup dotfiles to ~/Dotfiles repository folder in order to keep track of changes and have a backup of my configuration files.
 
 cp -R ~/.config/mpv .config
 cp -R ~/.config/fish .config
