@@ -101,25 +101,8 @@ With the LTS kernel:
 
 I do keep the mainline kernel installed as a fallback option in my bootloader, but honestly, I almost never need to use it. The LTS kernel gives me a bulletproof core, allowing me to focus entirely on my work without worrying about system instability after an update. For me, the kernel is the single most critical piece of software on my machine, and I treat it with the respect it deserves—stability above all else.
 
-## The Bigger Picture: Why Not Distro Derivatives?
-
-I've tried EndeavourOS and Manjaro, but they don't appeal to me:
-
-- **EndeavourOS** is essentially Arch with an installer—useful for newcomers, but I'm comfortable with `archinstall` and prefer the vanilla experience.
-- **Manjaro** holds back updates and adds its own tools and modifications. It's not Arch—it's a separate distribution with its own philosophy.
-
-I prefer pure Arch. No middlemen, no extra layers, no modifications.
-
 ## Conclusion
 
 My Arch Linux setup is a reflection of my values: **simplicity, transparency, and control**. I want my system to be predictable, secure, and true to upstream sources. I don't want to maintain AUR packages, fight with Wayland regressions, or worry about breakage during updates.
 
 By combining a rock-solid LTS kernel with i3 (and occasional Qtile) on X11, Arch Linux gives me exactly what I need—a rolling release user-space, a pure and unmodified software stack, a keyboard-driven workflow, and a core foundation that is as stable and unshakeable as a tank.
-
----
-
-*"Arch Linux is what you make it."* — Judd Vinet, founder of Arch Linux
-
----
-
-*This article reflects my personal experience and preferences. Everyone's needs are different, and there's no single "right" distribution for everyone.*
