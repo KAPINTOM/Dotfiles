@@ -211,7 +211,7 @@ bindsym $mod+r mode "resize"
 #------------------ CUSTOM CONFIGS ----------------------------------------
 
 # GAPS
-#gaps inner 10px
+gaps inner 5px
 smart_gaps off
 #gaps outer 10px
 
