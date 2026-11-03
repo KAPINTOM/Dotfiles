@@ -246,6 +246,10 @@ bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+
 bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
 bindsym XF86AudioMute exec amixer sset Master toggle
 
+# Brightness control
+
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
 
 # Playerctl controls
 
