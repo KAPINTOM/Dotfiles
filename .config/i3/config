@@ -33,8 +33,8 @@ exec --no-startup-id dex --autostart --environment i3
 
 #------------------------------- Start Portal XDG Desktop -------------------------------
 
-#exec --no-startup-id /usr/lib/xdg-desktop-portal-gtk
-#exec --no-startup-id /usr/lib/xdg-desktop-portal
+exec --no-startup-id /usr/libexec/xdg-desktop-portal-gtk
+exec --no-startup-id /usr/libexec/xdg-desktop-portal
 
 #exec /usr/bin/lxpolkit
 exec /usr/libexec/polkit-mate-authentication-agent-1
@@ -223,7 +223,7 @@ bindsym $mod+r mode "resize"
 #------------------ CUSTOM CONFIGS ----------------------------------------
 
 # GAPS
-gaps inner 10px
+gaps inner 0px
 smart_gaps on
 gaps outer 0px
 
@@ -238,7 +238,7 @@ bindsym $mod+w exec rofi -show window -show-icons
 #for_window [class=".*"] title_format ""
 #for_window [all] title_window_icon on
 #title_align center
-default_border pixel 1
+default_border pixel 3
 
 # Custom volume control with Amixer
 
