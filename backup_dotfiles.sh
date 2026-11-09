@@ -5,6 +5,7 @@ cp -R ~/.config/mpv .config
 cp -R ~/.config/fish .config
 cp -R ~/.config/qtile .config
 cp -R ~/.config/alacritty .config
+cp -R ~/.config/ghostty .config
 cp -R ~/.config/kitty .config
 cp -R ~/.config/picom .config
 cp -R ~/.config/i3 .config
