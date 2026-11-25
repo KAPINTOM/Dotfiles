@@ -274,7 +274,6 @@
         </finalactions>
       </action>
     </keybind>
-    
     <!-- Keybindings for window switching with the arrow keys -->
     <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows">
@@ -296,80 +295,63 @@
         <direction>down</direction>
       </action>
     </keybind>
-    
     <!-- Custom Keybindings -->
     <!-- Keybindings for running applications -->
-    
     <keybind key="W-e">
       <action name="Execute">
         <command>rofi -show drun</command>
       </action>
     </keybind>
-    
     <!-- Change Monitor -->
-    
     <keybind key="W-p">
       <action name="Execute">
         <command>sh /home/kiri/.config/openbox/togglemonitor.sh</command>
       </action>
     </keybind>
-    
     <!-- Modify volume -->
-      
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
         <command>amixer sset Master 5%+</command>
       </action>
     </keybind>
-    
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
         <command>amixer sset Master 5%-</command>
       </action>
     </keybind>
-    
     <keybind key="XF86AudioMute">
       <action name="Execute">
         <command>amixer sset Master toggle</command>
       </action>
     </keybind>
-        
     <!-- Modify brightness -->
-      
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
         <command>brightnessctl set +10%</command>
       </action>
     </keybind>
-    
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
         <command>brightnessctl set 10%-</command>
       </action>
     </keybind>
-    
     <!-- Playerctl control -->
-    
     <keybind key="XF86AudioPlay">
       <action name="Execute">
         <command>playerctl play-pause</command>
       </action>
     </keybind>
-    
     <keybind key="XF86AudioNext">
       <action name="Execute">
         <command>playerctl next</command>
       </action>
     </keybind>
-    
     <keybind key="XF86AudioPrev">
       <action name="Execute">
         <command>playerctl previous</command>
       </action>
     </keybind>
-  
   </keyboard>
-  
   <mouse>
     <dragThreshold>1</dragThreshold>
     <!-- number of pixels the mouse must move before a drag begins -->

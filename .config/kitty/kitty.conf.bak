@@ -2113,7 +2113,7 @@ font_size 10.0
 
 #: Advanced {{{
 
-# shell .
+shell fish
 
 #: The shell program to execute. The default value of . means to use
 #: the value of of the SHELL environment variable or if unset,
@@ -3617,3 +3617,8 @@ bold_font        family='DejaVu Sans Mono' style=Bold
 italic_font      family='DejaVu Sans Mono' style='Bold Oblique'
 bold_italic_font auto
 # END_KITTY_FONTS
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Frappe
+include current-theme.conf
+# END_KITTY_THEME
