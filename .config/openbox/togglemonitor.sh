@@ -9,10 +9,12 @@ hdmi_active() {
 
 if hdmi_active; then
 	xrandr --output eDP-1 --primary --auto --output HDMI-1 --off
-    	setxkbmap latam
+    setxkbmap latam
+	nitrogen --restore 
 else
 	xrandr --output HDMI-1 --primary --mode 1920x1080 --rate 75 --output eDP-1 --off
 	setxkbmap es
+	nitrogen --restore 
 fi
 
 #setxkbmap es
